@@ -23,8 +23,7 @@ def solution(survey, choices):
             answer += i[0]
         else:
             answer += i[1]
-
-    print(answer)
+            
     return answer
 
 solution(survey, choices)
