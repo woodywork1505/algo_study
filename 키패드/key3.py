@@ -53,6 +53,8 @@ def solution(numbers, hand):
                 current = 0
                 
                 #거리가 더 길면 반대편 손가락이 가까운것!
+                #비교후에 키패드 번호를 저장 => start finish
+            
                 if keypad[start][current] > keypad[finish][current]:
                     answer += "R"
                     finish = i
