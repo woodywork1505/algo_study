@@ -19,7 +19,10 @@ def solution(N, stages):
     print(counter[2])
     for i in range(1, N+1):
         # if counter.get(i) == i:
-        if counter[i] == i:
+        # if counter[i] == i:
+        if counter[i] == None:
+            pass
+        else:    
             a = counter.get(i)/N
             fail.append(a)
             
@@ -32,7 +35,7 @@ def solution(N, stages):
         #         fail += j
         #     elif j > N:
         #         stages_fail.pop(j)
-    print(answer)
+        print(answer)
         
     return answer
 
