@@ -12,7 +12,7 @@ def solution(triangle):
         for j in range(len(triangle[i])):
             
             if j == 0:
-                #왼쪽 대각선 위에서 내려옴
+                #왼쪽 대각선 위에서 내려옴``
                 #첫번째 숫자일때 위의 수와 던한값
                 triangle[i][j] += triangle[i-1][0]
             elif j == i:
